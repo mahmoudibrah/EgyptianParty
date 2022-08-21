@@ -1,0 +1,115 @@
+:root {
+  --main-color: rgba(214, 46, 51, 0.6);
+  --main-transtion: 0.5s;
+}
+
+#Home {
+  background-image: url(../images/events-heavenly-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Home .HomeOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-color);
+}
+#leftMenu {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: 1;
+  padding-top: 4rem;
+  background-color: #414658;
+  width: 0;
+  overflow-x: hidden;
+}
+#leftMenu a{
+  display: block;
+  padding: 1.25rem 1rem;
+  text-decoration: none;
+  transition: var(--main-transtion);
+  color: white;
+}
+#leftMenu a:hover {
+  color: rgba(214, 46, 51, 0.4);
+}
+#leftMenu .closebtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.25rem;
+  margin-left: 3.5rem;
+}
+#Home .openNav {
+    cursor: pointer;
+}
+/*  start slidDown */ 
+#sliderDown .toggle {
+    background-color: rgba(214, 46, 51 , 0.6);
+    padding: 0.8rem;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+#sliderDown .inner {
+    padding: 0.8rem;
+    background-color: #ccc;
+    display: none;
+}
+#sliderDown .first{
+    display:block;
+}
+/*  end slidDown */
+/* start count */
+#count {
+    background-image: url(../images/invitation-2508607__340\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 15rem;
+}
+#count .count-overlay {
+    background-color: var(--main-color);
+}
+/* end count */ 
+#contact-us textarea {
+  min-height: 15rem;
+}
+#contact-us #chars ,
+#contact-us .red{
+  color:#D62E33 !important;
+}
+
+#contact-us .social-list a,
+#contact-us .social-list a i {
+  transition: var(--main-transtion);
+}
+#contact-us .social-list a.fac:hover {
+  background-color: #1877f2;
+}
+#contact-us .social-list a.ins:hover {
+  background-color: #405de6;
+}
+#contact-us .social-list a.pin:hover {
+  background-color: #e60023;
+}
+#contact-us .social-list a.twi:hover {
+  background-color: #1da1f2;
+}
+#contact-us .social-list a.dri:hover {
+  background-color: #ea4c89;
+}
+
+#contact-us .social-list a.fac:hover i,
+#contact-us .social-list a.ins:hover i,
+#contact-us .social-list a.pin:hover i,
+#contact-us .social-list a.twi:hover i,
+#contact-us .social-list a.dri:hover i {
+  color: white !important;
+}
+
+
